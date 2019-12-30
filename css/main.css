@@ -1,5 +1,6 @@
 html,
 body {
+  font-family: Proxima Nova;
   top: 0px;
   left: 0px;
   width: 1280px;
@@ -7,16 +8,29 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0092FF;
+  /* box-sizing: border-box; */
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
 header {
+  display: flex;
+  width: 100vw;
   height: 80px;
-  width: 100%;
+  flex-direction: row;
+  flex-shrink: 0;
+  top: 0px;
 }
 
 header nav .logo{
   float: left;
-  width: 20%;
   margin-left: 100px;
   margin-top: 22px;
   width: 215px;
@@ -24,44 +38,47 @@ header nav .logo{
 }
 
 header nav .menu{
+  display: flex;
   float: right;
-  text-align: right;
   margin-right: 100px;
-  margin-top: 22px;
-}
+  margin-top: 0;
+  margin-right: 100;
 
-header nav .menu-item {
-  display: inline-block;
-  margin-left: .5rem;
-  padding: 1.33rem 0;
-}
-
-header nav .menu-item .login {
-  display: inline-block;
-  margin-left: .5rem;
-  padding: 1.33rem 0;
-
-  margin-bottom: 1.5em;
-  outline: none;
-  border: none;
-  padding: 1em;
-  width:auto;
-  border-radius: 25px;
-  color: white;
-  background-color: inherit;
-  border-bottom: 3px solid white;
 }
 
 header nav .menu-item .nav-link {
-  font-weight: 500;
-  padding: 1.33rem;
-  color: white;
-  font-family: Proxima Nova;
-  text-transform: capitalize;
-  font-size: 18px;
+  float: right;
+  flex-direction: row;
+    padding-right: 60px;
+    display: inline;
+  margin-top:31px;
+  font-size:  18px;
+  font: Semibold 18px/22px Proxima Nova;
+  align-items: center;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
   text-decoration: none;
+  outline: none;
 }
 
+
+header nav  .menu-item .login {
+  display: inline;
+  width: 104px;
+  height: 40px;
+  background-color: Transparent;
+  color: white;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  text-align: center;
+  outline: none;
+  vertical-align:middle;
+  text-decoration: none;
+  font-size:  18px;
+  margin-top: 22px;
+
+}
 
 /*flexbox*/
 main {
