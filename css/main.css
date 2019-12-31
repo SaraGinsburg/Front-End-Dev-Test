@@ -43,14 +43,13 @@ header nav .menu{
   margin-right: 100px;
   margin-top: 0;
   margin-right: 100;
-
 }
 
 header nav .menu-item .nav-link {
   float: right;
   flex-direction: row;
-    padding-right: 60px;
-    display: inline;
+  padding-right: 60px;
+  display: inline;
   margin-top:31px;
   font-size:  18px;
   font: Semibold 18px/22px Proxima Nova;
@@ -61,7 +60,6 @@ header nav .menu-item .nav-link {
   text-decoration: none;
   outline: none;
 }
-
 
 header nav  .menu-item .login {
   display: inline;
@@ -77,7 +75,27 @@ header nav  .menu-item .login {
   text-decoration: none;
   font-size:  18px;
   margin-top: 22px;
+}
+/* ******* middle container ****** */
+.middle-container {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  /* justify-content: center; */
+  align-items: start;
+  flex-shrink: 0;
+  top: 0px;
+}
 
+
+.middle-container .info {
+
+}
+
+.hero {
+  margin-left: auto;
+  margin-right: 82px;
+  margin-top: -143px;
 }
 
 /*flexbox*/
@@ -101,7 +119,7 @@ footer {
   flex-direction: column;
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
 
 .item {
