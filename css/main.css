@@ -81,17 +81,125 @@ header nav  .menu-item .login {
   display: flex;
   width: 100%;
   flex-flow: row wrap;
-  /* justify-content: center; */
   align-items: start;
   flex-shrink: 0;
   top: 0px;
 }
 
-
-.middle-container .info {
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 170px;
+  margin-left: 100px;
 
 }
 
+.info h1 {
+  border: 1px solid transparent;
+  margin: 0;
+  padding: 0;
+  width: 460px;
+  height: 90px;
+  color: #FFFFFF;
+  opacity: 1;
+  font: Bold 36px Proxima Nova;
+  letter-spacing: 0;
+  text-wrap: balance;
+  top: 0;
+}
+.info h2 {
+  border: 1px solid transparent;
+  margin-top: 10;
+  padding: 0;
+  width: 442px;
+  height: 46px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 18px;
+  font-weight:2;
+  font-family: Proxima Nova
+  top: 0;
+}
+.info h5 {
+  border: 1px solid transparent;
+  padding: 0;
+  width: 500px;
+  height: 15px;
+  font: Regular 12px/15px Proxima Nova;
+  color: #BDC7D6;
+  opacity: 1;
+  text-align: center;
+}
+
+
+/* *******buttons****** */
+
+/* Font Color */
+
+
+#button-container {
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons {
+    background: #FFFFFF59 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    width: 360px;
+    z-index: 99;
+}
+
+a.button-enter-email {
+    border-color: white;
+    border-width: 2px solid;
+    opacity: 1;
+    color: white;
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-weight: Regular;
+    height: 48px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    top: 14px;
+    text-decoration: none;
+    width: 227px;
+    z-index: 20;
+}
+a.button-get-started {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-color: white;
+    border-width: 2px solid;
+    opacity: 1;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    color: #1E95EE;
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-weight: Regular;
+    height: 48px;
+    line-height: 48px;
+    padding-top: 14px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    width: 133px;
+    z-index: 20;
+}
+.start-button {
+
+}
 .hero {
   margin-left: auto;
   margin-right: 82px;
