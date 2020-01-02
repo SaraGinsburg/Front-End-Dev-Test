@@ -25,7 +25,6 @@ h1 {
   font: Bold 36px Proxima Nova;
   letter-spacing: 0;
 }
-
 h2 {
   color: #FFFFFF;
   opacity: 1;
@@ -33,11 +32,29 @@ h2 {
   font-weight:2;
   font-family: Proxima Nova
 }
+h3 {
 
+  font-weight: lighter;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 0 10px 0;
+  font-family: Proxima Nova;
+  letter-spacing: 1.92px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
 h5 {
   font: Regular 12px/15px Proxima Nova;
   color: #BDC7D6;
   opacity: 1;
+}
+
+.flex-container {
+  flex-direction: column;
+  display: flex;
+  width: 100vw;
+  height: auto;
 }
 
 header {
@@ -62,7 +79,6 @@ header nav .menu{
   float: right;
   margin-right: 100px;
   margin-top: 0;
-  margin-right: 100;
 }
 
 header nav .menu-item .nav-link {
@@ -206,8 +222,25 @@ a.button-get-started {
   margin-right: 82px;
   margin-top: -433px;
 }
-/* ****** end of middle container ***** */
-/*flexbox*/
+
+.trusted-by-container {
+  display: flex;
+  flex-flow: column;
+  align-items:center;
+  top: 781px;
+}
+
+.trusted-by-container .title .h3 {
+
+}
+.trusting-companies-container {
+  display:flex;
+  justify-content:space-around;
+}
+
+.company-item {
+    padding: 0 2rem;
+}
 main {
   display: flex;
   flex-flow: row wrap;
@@ -221,13 +254,6 @@ main {
 footer {
   height: 80px;
   width: 100%;
-}
-
-.flex-container {
-  flex-direction: column;
-  display: flex;
-  width: 100vw;
-  height: auto;
 }
 
 .item {
