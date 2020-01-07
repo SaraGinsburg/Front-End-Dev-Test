@@ -19,33 +19,49 @@ ul {
   list-style-type: none;
 }
 
-h1 {
+
+p,h1,h2,h3,h4,h5 {
+  font-family: 'Proxima Nova';
   color: #FFFFFF;
   opacity: 1;
-  font: Bold 36px Proxima Nova;
   letter-spacing: 0;
 }
-h2 {
+
+p {
   color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 330;
+  letter-spacing: 0;
+  width: 344px;
+  height: 114px;
+  text-align: left;
+  margin-left: 200px;
   opacity: 1;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
   font-size: 18px;
   font-weight:2;
-  font-family: Proxima Nova
 }
-h3 {
 
+h3 {
   font-weight: lighter;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0 0 10px 0;
-  font-family: Proxima Nova;
   letter-spacing: 1.92px;
-  color: #FFFFFF;
   opacity: 0.7;
 }
+
 h5 {
-  font: Regular 12px/15px Proxima Nova;
+  font-weight: Regular;
+  font-size: 12px;
   color: #BDC7D6;
   opacity: 1;
 }
@@ -223,6 +239,7 @@ a.button-get-started {
   margin-top: -433px;
 }
 
+/* ***** trusted-by-container ****** */
 .trusted-by-container {
   display: flex;
   flex-flow: column;
@@ -230,17 +247,67 @@ a.button-get-started {
   top: 781px;
 }
 
-.trusted-by-container .title .h3 {
-
-}
 .trusting-companies-container {
   display:flex;
   justify-content:space-around;
 }
 
 .company-item {
-    padding: 0 2rem;
+  padding: 0 2rem;
 }
+
+/* ***** company info container ******* */
+.overpass-info-container {
+  display: flex;
+}
+
+.description-container {
+  margin-top: 155px;
+  display: flex;
+  flex-flow: column;
+  justify-content:space-around;
+}
+
+.what-is {
+  text-align: left;
+  font-size: 72px;
+  margin-left: 200px;
+  font-weight: 330;
+  font-family: Proxima Nova;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+
+.video-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 142px;
+  }
+
+.video-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.video-container svg {
+  position: absolute;
+  top: 130px;
+  left: 200px;
+  box-shadow: 0px 5px 10px #00000029;
+  font-size: 18px;
+}
+
+
+/*
+.play {
+  font-family: Proxima Nova;
+  font-size: 18px;
+  color: #FFFFFF;
+} */
+
 main {
   display: flex;
   flex-flow: row wrap;
