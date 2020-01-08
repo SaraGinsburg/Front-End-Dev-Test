@@ -320,11 +320,15 @@ a.button-get-started {
 section.finding-container {
   top: 1746px;
   display: flex;
-  position: absolute;
-  justify-content:space-around;
+  position: relative;
+  justify-content: space-around;
+  margin-right: 186px;
+  margin-left: 119px;
+  margin-top: 64px;
+  /* width: 2000px; */
   /* align-items: center; */
   /* height: 100% */
-  margin-left: 215px;
+
 
 }
 .find-agent {
@@ -379,6 +383,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: auto;
   align-items: center;
   margin-top: 0;
   /* margin-bottom: auto; */
