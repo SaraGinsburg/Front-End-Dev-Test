@@ -9,45 +9,29 @@ body {
   padding: 0;
   /* box-sizing: border-box; */
 }
-
 a {
   text-decoration: none;
 }
-
 ul {
   list-style-type: none;
 }
-
-
 p,h1,h2,h3,h4,h5 {
-  font-family: 'Proxima Nova';
   color: #FFFFFF;
   opacity: 1;
   letter-spacing: 0;
 }
-
 p {
-  color: #FFFFFF;
   font-size: 18px;
   font-weight: 330;
-  letter-spacing: 0;
-  width: 344px;
-  height: 114px;
-  text-align: left;
-  margin-left: 200px;
-  opacity: 1;
 }
-
 h1 {
   font-size: 36px;
   font-weight: bold;
 }
-
 h2 {
   font-size: 18px;
   font-weight:2;
 }
-
 h3 {
   font-weight: lighter;
   font-size: 16px;
@@ -58,14 +42,7 @@ h3 {
   opacity: 0.7;
 }
 
-h5 {
-  font-weight: Regular;
-  font-size: 12px;
-  color: #BDC7D6;
-  opacity: 1;
-}
-
-.flex-container {
+.nav-container {
   flex-direction: column;
   display: flex;
   width: 100vw;
@@ -75,7 +52,7 @@ h5 {
 
 header {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 80px;
   flex-direction: row;
   flex-shrink: 0;
@@ -132,7 +109,7 @@ header nav  .menu-item .login {
 .middle-container {
   background-color: #0092FF;
   display: flex;
-  width: 100%;
+  width: 100vw;
   flex-flow: row wrap;
   align-items: start;
   flex-shrink: 0;
@@ -166,10 +143,14 @@ header nav  .menu-item .login {
 .info h5 {
   border: 1px solid transparent;
   padding: 0;
-  width: 360px;
+  width: 400px;
   height: 15px;
   text-align: center;
   margin-top: 8px;
+  font-weight: 300;
+  font-size: 12px;
+  color: #BDC7D6;
+
 }
 
 #button-container {
@@ -247,6 +228,7 @@ a.button-get-started {
   flex-flow: column;
   align-items:center;
   top: 781px;
+  width: 100vw;
 }
 
 .trusting-companies-container {
@@ -282,7 +264,12 @@ a.button-get-started {
   color: #FFFFFF;
   opacity: 1;
 }
-
+.details {
+  width: 344px;
+  height: 114px;
+  text-align: left;
+  margin-left: 200px;
+}
 
 .video-container {
     position: relative;
@@ -318,13 +305,13 @@ a.button-get-started {
 }
 /* ***    finding container ***** */
 section.finding-container {
-  top: 1746px;
+
   display: flex;
   position: relative;
   justify-content: space-around;
   margin-right: 186px;
   margin-left: 119px;
-  margin-top: 64px;
+  margin-top: 284px;
   /* width: 2000px; */
   /* align-items: center; */
   /* height: 100% */
