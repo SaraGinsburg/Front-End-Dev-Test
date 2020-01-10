@@ -275,7 +275,7 @@ a.button-get-started {
     position: relative;
     display: inline-block;
     margin-top: 142px;
-  }
+}
 
 .video-container img {
   display: block;
@@ -312,11 +312,10 @@ section.finding-container {
   margin-right: 186px;
   margin-left: 119px;
   margin-top: 284px;
-  
+
   /* width: 2000px; */
   /* align-items: center; */
   /* height: 100% */
-
 
 }
 .find-agent {
@@ -391,4 +390,44 @@ button {
   letter-spacing: 0;
   opacity: 1;
 
+}
+
+/* ***    pricing container ***** */
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #F0F3FC;
+}
+.pricing-container svg {
+  box-shadow: 0px 5px 10px #00000029;
+}
+.pricing-options {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  justify-content: space-between;
+  position: relative;
+  dominant-baseline="middle";
+  text-anchor="middle";
+}
+
+.pricing-options .text1 {
+  font-size: 18px;
+  font-weight: Bold;
+}
+.pricing-options .text2 {
+  font-size: 114px;
+  font-weight: regular;
+}
+.pricing-options .text3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.pricing-options .text4 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.card-a {
+  display: inline-block;
 }
