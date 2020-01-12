@@ -408,8 +408,8 @@ button {
   margin-right: 120px;
   justify-content: space-between;
   position: relative;
-  dominant-baseline="middle";
-  text-anchor="middle";
+  text-anchor: top;
+  letter-spacing: 0;
 }
 
 .pricing-options .text1 {
@@ -418,15 +418,23 @@ button {
 }
 .pricing-options .text2 {
   font-size: 114px;
-  font-weight: regular;
+  font-weight: medium;
+  letter-spacing: -6px;
 }
 .pricing-options .text3 {
   font-size: 24px;
   font-weight: bold;
+  letter-spacing: 0px;
 }
 .pricing-options .text4 {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: medium;
+  letter-spacing: -6px;
+}
+.pricing-options .text5 {
+  font-size: 84px;
+  font-weight: 600;
+
 }
 .card-a {
   display: inline-block;
