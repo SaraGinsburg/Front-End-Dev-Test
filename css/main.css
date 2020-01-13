@@ -472,9 +472,13 @@ button {
   /* justify-content: space-around; */
 }
 .launch {
- margin-top: 105px;
+ margin-top: 132px;
  display: flex;
  position: relative;
+ margin-left: 120px;
+ margin-right: 120px;
+ justify-content: space-between;
+
 }
 .launch h1 {
  color: #1E95EE;
@@ -489,23 +493,25 @@ button {
    width: 420px;
    height: 99px;
    text-align: left;
-   font-weight: 350;
-   opacity: 0.9;
+   font-size: 24px;
+   font-weight: 550;
+   line-height: 1.4;
+   opacity: 1;
+   margin-top: 41;
  }
 .launch-activities {
   display: flex;
   color: #1E95EE;
-  width: 1280px;
-  /* height: 700px; */
+  /* width: 1280px; */
   margin-right: 120px;
   margin-left: 120px;
-  align-items: top;
+  margin-top: 75.5px;
   justify-content:space-between;
-  border: 1px dotted blue;
+  /* border: 1px dotted blue; */
  }
 
  .container-item {
-  border: 1px dotted orange;
+  /* border: 1px dotted orange; */
   display: flex;
   width: 300px;
   justify-content: space-between;
