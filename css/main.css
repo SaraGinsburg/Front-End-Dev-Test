@@ -472,7 +472,7 @@ button {
   /* justify-content: space-around; */
 }
 .launch {
- margin-top: 132px;
+ margin-top: 105px;
  display: flex;
  position: relative;
  margin-left: 120px;
@@ -503,9 +503,11 @@ button {
   display: flex;
   color: #1E95EE;
   /* width: 1280px; */
+  height: auto;
   margin-right: 120px;
   margin-left: 120px;
   margin-top: 75.5px;
+  margin-bottom:  150px;
   justify-content:space-between;
   /* border: 1px dotted blue; */
  }
@@ -565,14 +567,18 @@ button {
  flex-direction: column;
  width: 1280px;
  height: 680px;
+ background-color: #F0F9FF;
+ margin-top:  150px;
+
 }
 .monitor {
-  margin-top: 94px;
   display: flex;
   position: relative;
+  border: 1px solid transparent;
   margin-left: 120px;
   margin-right: 120px;
   justify-content: space-between;
+  margin-top:  94px;
 }
 
 .monitor h1 {
