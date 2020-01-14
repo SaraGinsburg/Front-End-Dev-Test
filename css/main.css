@@ -562,32 +562,32 @@ button {
  }
 
  /* **** monitor container ****** */
-.monitor-container {
- display: flex;
- flex-direction: column;
- width: 1280px;
- height: 680px;
- background-color: #F0F9FF;
- margin-top:  150px;
+ .monitor-container {
+   display: flex;
+   flex-direction: column;
+   width: 1280px;
+   height: 680px;
+   background-color: #F0F9FF;
+   margin-top:  150px;
 
-}
-.monitor {
-  display: flex;
-  position: relative;
-  border: 1px solid transparent;
-  margin-left: 120px;
-  margin-right: 120px;
-  justify-content: space-between;
-  margin-top:  94px;
-}
+ }
+ .monitor {
+   display: flex;
+   position: relative;
+   border: 1px solid transparent;
+   margin-left: 120px;
+   margin-right: 120px;
+   justify-content: space-between;
+   margin-top:  94px;
+ }
 
-.monitor h1 {
-  color: #1E95EE;
-  text-align: right;
-  font-weight: 600;
-  font-size: 42px;
-}
-.monitor p {
+ .monitor h1 {
+   color: #1E95EE;
+   text-align: right;
+   font-weight: 600;
+   font-size: 42px;
+ }
+ .monitor p {
    color: #1E95EE;
    width: 420px;
    height: 99px;
@@ -606,18 +606,18 @@ button {
    margin-top: 89px;
    justify-content:space-between;
    /* border: 1px dotted blue; */
-  }
+ }
 
-  .monitor-activities .container-item h6 {
-    font-size: 20px;
-    font-weight: 550;
-    color: #3A3C3E;
-    text-align: left;
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-.monitor-activities .container-item  p {
+ .monitor-activities .container-item h6 {
+   font-size: 20px;
+   font-weight: 550;
+   color: #3A3C3E;
+   text-align: left;
+   padding: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+ .monitor-activities .container-item  p {
    font-size: 14px;
    font-weight: 400;
    color: #3A3C3E;
@@ -627,11 +627,92 @@ button {
  }
 
  .monitor-activities .outcomes{
-    display: flex;
-  }
+   display: flex;
+ }
  .monitor-activities .recording{
-    display: flex;
-  }
- .monitor-activities .Analytics{
-    display: flex;
-  }
+   display: flex;
+ }
+ .monitor-activities .analytics{
+   display: flex;
+ }
+
+/* *** pay container **** */
+.pay-container {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: 680px;
+  background-color: #F0F9FF;
+  margin-top:  150px;
+
+}
+.pay {
+  display: flex;
+  position: relative;
+  /* border: 0.5px solid transparent; */
+  margin-left: 120px;
+  margin-right: 120px;
+  justify-content: space-between;
+  margin-top:  119px;
+}
+
+.pay h1 {
+  border: 1px solid transparent;
+  color: #1E95EE;
+  text-align: left;
+  font-weight: 600;
+  font-size: 42px;
+}
+.pay p {
+  color: #1E95EE;
+  width: 420px;
+  height: 99px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 550;
+  line-height: 1.4;
+  opacity: 1;
+  margin-top: 40;
+}
+.pay-activities {
+  display: flex;
+  color: #3A3C3E;
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-top: 89px;
+  justify-content:space-between;
+  /* border: 1px dotted blue; */
+}
+
+.pay-activities .container-item h6 {
+  font-size: 20px;
+  font-weight: 550;
+  color: #3A3C3E;
+  text-align: left;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.pay-activities .container-item  p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #3A3C3E;
+  width: 250px;
+  text-align: left;
+  margin-top: 6px;
+}
+
+.pay-activities .payments{
+  display: flex;
+}
+.pay-activities .international{
+  display: flex;
+}
+.pay-activities .billing{
+  display: flex;
+}
+
+
+
+
+/* ***** */
