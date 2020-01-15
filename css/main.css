@@ -719,12 +719,12 @@ button {
 .bottom-container {
   background-color: #1E95EE;
   display: flex;
+  margin-top: 47px;
 }
 
 .bottom-container .info {
   display: flex;
   flex-flow: column;
-  margin-top: 47px;
   margin-left: 183px;
   text-align: center;
   align-items: center;
@@ -760,4 +760,5 @@ button {
 }
 .bottom-container .footer img {
   margin-left: 128px;
+  margin-top: 44px;
 }
