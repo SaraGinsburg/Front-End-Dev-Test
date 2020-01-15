@@ -46,6 +46,7 @@ h3 {
   flex-direction: column;
   display: flex;
   width: 100vw;
+  max-width: 100%
   height: auto;
   background-color: #0092FF;
 }
@@ -111,9 +112,11 @@ header nav  .menu-item .login {
   display: flex;
   width: 100vw;
   flex-flow: row wrap;
-  align-items: start;
+  /* align-items: start; */
   flex-shrink: 0;
-  top: 0px;
+  margin-top: 0px;
+
+  justify-content: space-between;
 }
 
 .info {
@@ -215,10 +218,9 @@ a.button-get-started {
     z-index: 20;
 }
 
-.hero {
-  margin-left: auto;
-  margin-right: 82px;
-  margin-top: -433px;
+.middle-container .hero img{
+  margin-top: 69px;
+  margin-right: 75px;
 }
 
 /* ***** trusted-by-container ****** */
