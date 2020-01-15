@@ -303,7 +303,7 @@ a.button-get-started {
   background-color: white;
   background: url("../images/curve.svg") bottom center;
   background-size: 120%;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 /* ***    finding container ***** */
 section.finding-container {
